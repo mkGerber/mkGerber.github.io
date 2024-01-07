@@ -1,4 +1,5 @@
 .project-container{
+    margin-bottom: 50px;
     display: flex;
     width: 80%;
     height: 500px;
@@ -9,9 +10,23 @@
     width: 500px;
     object-fit: cover;
     object-position: left;
+    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s, opacity 0.3s;
+}
+.project-image:hover{
+    cursor: pointer;
+    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.3);
+    opacity: .8;
+}
+.project-image:active{
+    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.5);
+    opacity: .6;
+
 }
 .project-description-container{
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .project-title{
     display: flex;
@@ -20,18 +35,18 @@
     margin-top: 6px;
     font-size: 50px;
     font-weight: 500;
-}
-.line{
-    border-bottom: solid 1px black;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 775px;
+    color: rgb(255, 39, 39);
 }
 .project-description{
     margin: 10px;
     font-size: 20px;
     font-weight: 300;
+}
+.github-link{
+    display: flex;
+    height: 100%;
+    justify-content: left;
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
