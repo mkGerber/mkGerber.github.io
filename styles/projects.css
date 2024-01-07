@@ -50,3 +50,49 @@
     margin-left: 10px;
     margin-bottom: 5px;
 }
+
+@media (max-width: 1400px){
+    .project-title{
+        font-size: 40px;
+    }
+    .project-container{
+        height: 400px;
+    }
+    .project-image{
+        height: 400px;
+        width: 400px;
+    }
+    .project-description{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1075px){
+    .project-title{
+        font-size: 30px;
+    }
+    .project-container{
+        height: 300px;
+    }
+    .project-image{
+        height: 300px;
+        width: 300px;
+    }
+    .project-description{
+        font-size: 10px;
+    }
+}
+@media (max-width: 730px){
+    .project-title{
+        font-size: 20px;
+    }
+    .project-container{
+        height: 200px;
+    }
+    .project-image{
+        height: 200px;
+        width: 200px;
+    }
+    .project-description{
+        font-size: 5px;
+    }
+}
