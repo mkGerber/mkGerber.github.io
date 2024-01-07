@@ -1,0 +1,37 @@
+.project-container{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.project-image{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: left;
+}
+.project-description-container{
+    flex: 1;
+}
+.project-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.line{
+    border-bottom: solid 1px black;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 775px;
+}
+.project-description{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
